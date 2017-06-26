@@ -1,0 +1,14 @@
+.footer-row {
+    background: #42426f;
+    color: #fff;
+}
+.social-icon{
+    text-align: right;
+}
+.footer-row a{
+    color: #ddd;
+    text-decoration: none;
+}
+.footer-row a:hover{
+    color: #fff;
+}

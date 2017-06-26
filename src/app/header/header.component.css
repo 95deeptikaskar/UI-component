@@ -1,0 +1,20 @@
+.mynavbar .ui-menubar{
+    padding: 0
+}
+.mynavbar .ui-menu .ui-menuitem-link{
+    padding: 0 15px;
+    line-height: 8px;
+}
+.nav-header{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.mynavbar{
+    display: inline-block;
+}
+.header{
+    padding: 0 15px;
+}
+.nav-header a{
+    line-height: 8px;
+}
