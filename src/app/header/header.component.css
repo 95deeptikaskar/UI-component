@@ -2,12 +2,11 @@
     padding: 0
 }
 .mynavbar .ui-menu .ui-menuitem-link{
-    padding: 0 15px;
-    line-height: 8px;
+    padding: 15px;
+    line-height: 0px;
 }
 .nav-header{
     display: inline-block;
-    padding-bottom: 10px;
 }
 .mynavbar{
     display: inline-block;
@@ -17,4 +16,13 @@
 }
 .nav-header a{
     line-height: 8px;
+}
+.ui-menu .ui-menu-child {
+    /*padding: 10px;*/
+}
+.ui-menu .ui-menu-parent .ui-menu-child{
+    background: #42426f;
+}
+.ui-menu .ui-menu-child .ui-menuitem-text{
+    color: #fff;
 }
