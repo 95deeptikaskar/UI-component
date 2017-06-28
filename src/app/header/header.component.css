@@ -1,24 +1,23 @@
+.header{
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
 .mynavbar .ui-menubar{
-    padding: 0
+    padding: 0;
+}
+ui-menubar .ui-menubar-root-list>.ui-menuitem {
+    padding: 0 15px;
+    margin: 0;
 }
 .mynavbar .ui-menu .ui-menuitem-link{
-    padding: 15px;
-    line-height: 0px;
-}
-.nav-header{
-    display: inline-block;
+    padding: 0 15px;
+    line-height: 14px;
+    font-size: 14px;
 }
 .mynavbar{
     display: inline-block;
-}
-.header{
-    padding: 0 15px;
-}
-.nav-header a{
-    line-height: 8px;
-}
-.ui-menu .ui-menu-child {
-    /*padding: 10px;*/
 }
 .ui-menu .ui-menu-parent .ui-menu-child{
     background: #42426f;
