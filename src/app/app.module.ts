@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule }   from '@angular/forms'; // <-- NgModel lives here
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { MainComponent } from './main/main.component';
+import { CountBarComponent} from './countbar/countbar.component';
 import { AppComponent } from './app.component';
 import {MenubarModule,MenuItem} from 'primeng/primeng';
 
@@ -10,7 +12,9 @@ import {MenubarModule,MenuItem} from 'primeng/primeng';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CountBarComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
