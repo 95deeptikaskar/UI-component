@@ -7,6 +7,9 @@ import { MainComponent } from './main/main.component';
 import { CountBarComponent} from './countbar/countbar.component';
 import { AppComponent } from './app.component';
 import {MenubarModule,MenuItem} from 'primeng/primeng';
+import {TabViewModule} from 'primeng/primeng';
+import {PanelModule} from 'primeng/primeng';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,12 +17,16 @@ import {MenubarModule,MenuItem} from 'primeng/primeng';
     HeaderComponent,
     FooterComponent,
     CountBarComponent,
-    MainComponent
+    MainComponent,
+    
   ],
   imports: [
     BrowserModule,
     FormsModule, // <-- import the FormsModule before binding with [(ngModel)]
     MenubarModule,
+    TabViewModule,
+    PanelModule,
+    BrowserAnimationsModule
     //MenuItem
   ],
   providers: [],
