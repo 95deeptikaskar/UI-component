@@ -1,5 +1,20 @@
 <div class="ui-g">
-    <div class="ui-g-3">Col1</div>
-    <div class="ui-g-6"><app-countbar></app-countbar></div>
-    <div class="ui-g-3">Col1</div>
+    <div class="ui-g-9">
+        <p-tabView orientation="left">
+            <p-tabPanel header="Header 1">
+                <app-countbar></app-countbar>
+            </p-tabPanel>
+            <p-tabPanel header="Header 2">
+                <app-countbar></app-countbar>
+            </p-tabPanel>
+            <p-tabPanel header="Header 3">
+                <app-countbar></app-countbar>  
+            </p-tabPanel>
+        </p-tabView>
+    </div>
+    <div class="ui-g-3">
+        <p-panel header="Title">
+            Content
+        </p-panel>
+    </div>
 </div>

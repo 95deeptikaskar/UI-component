@@ -7,6 +7,27 @@ import { MainComponent } from './main/main.component';
 import { CountBarComponent} from './countbar/countbar.component';
 import { AppComponent } from './app.component';
 import {MenubarModule,MenuItem} from 'primeng/primeng';
+import {TabViewModule} from 'primeng/primeng';
+import {PanelModule} from 'primeng/primeng';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponent } from './login/login.component';
+import { RouterModule, Routes} from '@angular/router';
+import { HomeComponent } from './home/home.component';
+
+const appRoutes : Routes = [
+   { path: '',
+    redirectTo: 'login',
+    pathMatch: 'full'
+  },
+   {
+    path:'home',
+    component: HomeComponent
+  },
+    {
+    path:'login',
+    component: LoginComponent
+  }
+]
 
 @NgModule({
   declarations: [
@@ -14,12 +35,19 @@ import {MenubarModule,MenuItem} from 'primeng/primeng';
     HeaderComponent,
     FooterComponent,
     CountBarComponent,
-    MainComponent
+    MainComponent,
+    LoginComponent,
+    HomeComponent,
+    
   ],
   imports: [
     BrowserModule,
     FormsModule, // <-- import the FormsModule before binding with [(ngModel)]
     MenubarModule,
+    TabViewModule,
+    PanelModule,
+    BrowserAnimationsModule,
+    RouterModule.forRoot(appRoutes),
     //MenuItem
   ],
   providers: [],
