@@ -12,9 +12,14 @@ ui-menubar .ui-menubar-root-list>.ui-menuitem {
     margin: 0;
 }
 .mynavbar .ui-menu .ui-menuitem-link{
-    padding: 0 15px;
+    padding: 15px 15px 8px;
     line-height: 14px;
     font-size: 14px;
+    color: #9d9d9d;
+}
+.mynavbar .ui-menu .ui-menuitem-link:hover, .mynavbar .ui-menu .ui-menuitem-link:focus{
+    color: #42426f;
+    border-bottom: 2px solid #42426f;
 }
 .mynavbar{
     display: inline-block;
@@ -24,4 +29,7 @@ ui-menubar .ui-menubar-root-list>.ui-menuitem {
 }
 .ui-menu .ui-menu-child .ui-menuitem-text{
     color: #fff;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #9d9d9d;
 }
