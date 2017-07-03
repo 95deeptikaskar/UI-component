@@ -2,5 +2,21 @@
 body{
     margin: 0;
     padding: 0;
+    background: #ccc;
+    color: #4d4d4d;
+}
+.white-bg{
+    background: #fff;
+}
+.grey-bg{
     background: #f5f5f5;
+}
+.blue{
+    color: #007bff;
+}
+.green{
+    color: #37BC9B;
+}
+.red{
+    color: #DA4453;
 }
