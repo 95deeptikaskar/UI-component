@@ -6,13 +6,15 @@ import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { CountBarComponent} from './countbar/countbar.component';
 import { AppComponent } from './app.component';
-import {MenubarModule,MenuItem} from 'primeng/primeng';
+import {MenubarModule} from 'primeng/primeng';
 import {TabViewModule} from 'primeng/primeng';
 import {PanelModule} from 'primeng/primeng';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
 import { RouterModule, Routes} from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { CandidateDetailsComponent } from './candidate-details/candidate-details.component';
+import { MenuItem } from "primeng/components/common/menuitem";
 
 const appRoutes : Routes = [
    { path: '',
@@ -38,6 +40,7 @@ const appRoutes : Routes = [
     MainComponent,
     LoginComponent,
     HomeComponent,
+    CandidateDetailsComponent,
     
   ],
   imports: [
