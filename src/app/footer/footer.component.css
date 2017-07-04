@@ -1,6 +1,9 @@
 .footer-row {
     background: #42426f;
     color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 .social-icon{
     text-align: right;

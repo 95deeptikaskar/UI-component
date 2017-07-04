@@ -1,0 +1,39 @@
+.candidates-interview{
+    margin: 0 -0.5em;
+}
+.candidate-details{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.candidate{
+    padding: 20px;
+}
+.candidates-interview .heading{
+    color:#000;
+    font-size: 18px;
+}
+.table>thead>tr>td{
+    padding:8px 0 0;
+}
+.table>tbody>tr>td{
+    border-top: 0;
+    padding: 0;
+}
+.heading-td{
+    width: 50%;
+}
+.table .blue{
+    font-size: 16px;
+}
+.col-border .ui-g-4{
+    border:1px solid #ccc;
+    border-right: 0;
+    padding: 0.5em 0;
+}
+.col-border .ui-g-4:last-child{
+    border:1px solid #ccc;
+    border-right: 1px solid #ccc;;
+}
+.grey-bg{
+    padding:10px 20px;
+}
