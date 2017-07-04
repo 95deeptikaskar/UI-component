@@ -15,6 +15,7 @@ import { RouterModule, Routes} from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { CandidateDetailsComponent } from './candidate-details/candidate-details.component';
 import { MenuItem } from "primeng/components/common/menuitem";
+import { ChatWindowComponent } from './chat-window/chat-window.component';
 
 const appRoutes : Routes = [
    { path: '',
@@ -41,6 +42,7 @@ const appRoutes : Routes = [
     LoginComponent,
     HomeComponent,
     CandidateDetailsComponent,
+    ChatWindowComponent,
     
   ],
   imports: [

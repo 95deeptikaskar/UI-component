@@ -26,6 +26,31 @@
 .ui-tabview-left>.ui-tabview-nav {
     height: auto;
 }
+
+h3{
+    font-size: 18px;
+    color: #403d3d;
+}
+p{
+    color: #a0a0a0; 
+    margin-bottom: 3px;  
+}
+
+.panel{
+    margin-top: 89px;
+    border:none !important;
+    border-radius: 0px !important;
+}
+.panel-primary .panel-heading{
+    background-color: #2ab13a;
+    border-color: #2ab13a;
+    border-radius: 0px!important;
+}
+.panel-footer{
+     background-color: #e7eaef;
+     border-top: 1px solid #e7eaef;
+}
+
 @media only screen and (max-width: 767px) {
     .ui-tabview-left>.ui-tabview-nav {
         float: left;
