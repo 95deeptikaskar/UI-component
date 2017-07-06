@@ -28,12 +28,12 @@
 .col-border .ui-g-4{
     border:1px solid #ccc;
     border-right: 0;
-    padding: 0.5em 0;
+    padding: 1.5em 10px
 }
 .col-border .ui-g-4:last-child{
     border:1px solid #ccc;
     border-right: 1px solid #ccc;;
 }
 .grey-bg{
-    padding:10px 20px;
+    padding:20px 20px;
 }

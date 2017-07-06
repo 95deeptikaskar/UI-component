@@ -43,19 +43,41 @@ p{
 }
 
 .panel{
-    margin-top: 89px;
+    margin-top: 75px;
     border:none !important;
     border-radius: 0px !important;
 }
 .panel-primary .panel-heading{
-    background-color: #2ab13a;
-    border-color: #2ab13a;
+    background-color: #3fc34f;
+    border-color: #3fc34f;
     border-radius: 0px!important;
 }
 .panel-footer{
      background-color: #e7eaef;
      border-top: 1px solid #e7eaef;
 }
+
+.form-control{
+    border-radius: 0px;
+    border-right: none;
+}
+.btn{
+    border-radius:  0px;
+    border-left: none;
+}
+.chat-body{
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+.btn-secondary{
+    border-radius: 5px;
+    background-color: #fff;
+    border-color: #3fc34f;
+    border: 1px solid #8dea99;
+    color: #8dea99;
+}
+
 
 @media only screen and (max-width: 767px) {
     .ui-tabview-left>.ui-tabview-nav {
