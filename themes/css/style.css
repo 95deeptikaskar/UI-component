@@ -10,6 +10,11 @@ h5 {
     margin: 0;
 }
 
+a{
+    color: #d23939;
+    text-decoration: none;  
+}
+
 .card {
     font-size: 1em;
     overflow: hidden;
@@ -39,6 +44,7 @@ h5 {
     font-size: 1.28571429em;
     font-weight: 700;
     line-height: 1.2857em;
+    color:#366b7b;
 }
 
 .card-text {
@@ -120,4 +126,11 @@ footer{
 }
 .footer-txt{
     padding: 20px;
+    color: #d23939;
+    font-family: inherit;
+    font-weight: 400;
+}
+
+ul li{
+    color: #1fa580;
 }
